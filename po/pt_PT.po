@@ -1,0 +1,21 @@
+msgid "IDS_COM_SK_OK"
+msgstr "OK"
+
+msgid "IDS_ST_BODY_CLEAR_DEFAULTS"
+msgstr "Limpar predefinições"
+
+msgid "IDS_COM_HEADER_SELECT_APPLICATION"
+msgstr "Seleccionar aplicação"
+
+msgid "IDS_ST_POP_TO_CLEAR_DEFAULT_APPLICATION_SETTINGS_GO_TO_SETTINGS_APPLICATION_MANAGER_DEFAULT_AND_SELECT_THE_APPLICATION_BEING_USED_BY_DEFAULT_MSG"
+msgstr "Para limpar as definições de aplicações predefinidas aceda a Definições > Gestor de aplicações > Predefinições, e seleccione a aplicação que está a ser utilizada por predefinição. Em seguida, seleccione Limpar predefinições."
+
+msgid "IDS_COM_BODY_NO_APPLICATIONS_CAN_PERFORM_THIS_ACTION"
+msgstr "Impossível localizar aplicação para executar esta acção."
+
+msgid "IDS_COM_BODY_ALWAYS"
+msgstr "Sempre"
+
+msgid "IDS_COM_BODY_JUST_ONCE"
+msgstr "Só uma vez"
+

@@ -1,0 +1,21 @@
+msgid "IDS_COM_SK_OK"
+msgstr "OK"
+
+msgid "IDS_ST_BODY_CLEAR_DEFAULTS"
+msgstr "Διαγραφή προεπιλογών"
+
+msgid "IDS_COM_HEADER_SELECT_APPLICATION"
+msgstr "Επιλογή εφαρμογής"
+
+msgid "IDS_ST_POP_TO_CLEAR_DEFAULT_APPLICATION_SETTINGS_GO_TO_SETTINGS_APPLICATION_MANAGER_DEFAULT_AND_SELECT_THE_APPLICATION_BEING_USED_BY_DEFAULT_MSG"
+msgstr "Για την εκκαθάριση των ρυθμίσεων εφαρμογών, μεταβείτε στις Ρυθμίσεις > Διαχείριση εφαρμογών > Προεπιλογή και επιλέξτε την εφαρμογή που χρησιμοποιείται από προεπιλογή. Στη συνέχεια, επιλέξτε «Εκκαθάριση προεπιλογών»."
+
+msgid "IDS_COM_BODY_NO_APPLICATIONS_CAN_PERFORM_THIS_ACTION"
+msgstr "Δεν είναι δυνατή η εύρεση εφαρμογών για την εκτέλεση αυτής της ενέργειας."
+
+msgid "IDS_COM_BODY_ALWAYS"
+msgstr "Πάντα"
+
+msgid "IDS_COM_BODY_JUST_ONCE"
+msgstr "Μόνο μία φορά"
+

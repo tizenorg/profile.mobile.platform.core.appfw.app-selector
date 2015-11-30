@@ -1,0 +1,21 @@
+msgid "IDS_COM_SK_OK"
+msgstr "OK"
+
+msgid "IDS_ST_BODY_CLEAR_DEFAULTS"
+msgstr "Tøm standarder"
+
+msgid "IDS_COM_HEADER_SELECT_APPLICATION"
+msgstr "Velg app"
+
+msgid "IDS_ST_POP_TO_CLEAR_DEFAULT_APPLICATION_SETTINGS_GO_TO_SETTINGS_APPLICATION_MANAGER_DEFAULT_AND_SELECT_THE_APPLICATION_BEING_USED_BY_DEFAULT_MSG"
+msgstr "For å tømme standard appinnstillinger går du til Innstillinger > Appstyring > Standard og velger appen som blir brukt som standard. Velg deretter Tøm standarder."
+
+msgid "IDS_COM_BODY_NO_APPLICATIONS_CAN_PERFORM_THIS_ACTION"
+msgstr "Kan ikke finne app til å utføre denne handlingen."
+
+msgid "IDS_COM_BODY_ALWAYS"
+msgstr "Alltid"
+
+msgid "IDS_COM_BODY_JUST_ONCE"
+msgstr "Bare én gang"
+

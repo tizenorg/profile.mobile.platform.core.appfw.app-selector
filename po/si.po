@@ -1,0 +1,21 @@
+msgid "IDS_COM_SK_OK"
+msgstr "හරි"
+
+msgid "IDS_ST_BODY_CLEAR_DEFAULTS"
+msgstr "පෙරනිමි මකන්න"
+
+msgid "IDS_COM_HEADER_SELECT_APPLICATION"
+msgstr "යෙදුම තේරීම"
+
+msgid "IDS_ST_POP_TO_CLEAR_DEFAULT_APPLICATION_SETTINGS_GO_TO_SETTINGS_APPLICATION_MANAGER_DEFAULT_AND_SELECT_THE_APPLICATION_BEING_USED_BY_DEFAULT_MSG"
+msgstr "පෙරනිමි යෙදුම් සැකසුම් හිස් කිරීමට, සැකසුම් > යෙදුම් කළමනාකරු > පෙරනිමි වෙත ගොස පෙරනිමියෙන් භාවිතා වන යෙදුම තෝරන්න. ඉන්පසු පෙරනිමි හිස් කරන්න තෝරන්න."
+
+msgid "IDS_COM_BODY_NO_APPLICATIONS_CAN_PERFORM_THIS_ACTION"
+msgstr "මෙම ක්‍රියාව ඉටු කිරීමට යෙදුම් සෙවිය නොහැකිය."
+
+msgid "IDS_COM_BODY_ALWAYS"
+msgstr "සැමවිටම"
+
+msgid "IDS_COM_BODY_JUST_ONCE"
+msgstr "එකක් පමණි"
+

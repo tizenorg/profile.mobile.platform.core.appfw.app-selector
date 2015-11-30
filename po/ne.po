@@ -1,0 +1,21 @@
+msgid "IDS_COM_SK_OK"
+msgstr "ठीक छ"
+
+msgid "IDS_ST_BODY_CLEAR_DEFAULTS"
+msgstr "पूर्वनिर्धारितहरु खाली गर्नुहोस्"
+
+msgid "IDS_COM_HEADER_SELECT_APPLICATION"
+msgstr "अनुप्रयोग चयन गर"
+
+msgid "IDS_ST_POP_TO_CLEAR_DEFAULT_APPLICATION_SETTINGS_GO_TO_SETTINGS_APPLICATION_MANAGER_DEFAULT_AND_SELECT_THE_APPLICATION_BEING_USED_BY_DEFAULT_MSG"
+msgstr "पूर्वनिर्धारित अनुप्रयोग सेटिङहरू खाली गर्न, सेटिङहरू > अनुप्रयोग व्यवस्थापक > पूर्वनिर्धारितमा जानुहोस् र पूर्वनिर्धारित रूपमा प्रयोग भइरहेको अनुप्रयोग चयन गर्नुहोस्। त्यसपछि पूर्वनिर्धारितहरू खाली गर्नुहोस् लाई चयन गर्नुहोस्।"
+
+msgid "IDS_COM_BODY_NO_APPLICATIONS_CAN_PERFORM_THIS_ACTION"
+msgstr "यो कार्य गर्नका लागि अनुप्रयोग भेट्टाइएन।"
+
+msgid "IDS_COM_BODY_ALWAYS"
+msgstr "सधैं"
+
+msgid "IDS_COM_BODY_JUST_ONCE"
+msgstr "एक पटक मात्रै"
+

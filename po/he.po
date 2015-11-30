@@ -1,0 +1,21 @@
+msgid "IDS_COM_SK_OK"
+msgstr "אישור"
+
+msgid "IDS_ST_BODY_CLEAR_DEFAULTS"
+msgstr "נקה ברירות מחדל"
+
+msgid "IDS_COM_HEADER_SELECT_APPLICATION"
+msgstr "בחר יישום"
+
+msgid "IDS_ST_POP_TO_CLEAR_DEFAULT_APPLICATION_SETTINGS_GO_TO_SETTINGS_APPLICATION_MANAGER_DEFAULT_AND_SELECT_THE_APPLICATION_BEING_USED_BY_DEFAULT_MSG"
+msgstr "כדי לנקות הגדרות ברירת מחדל ביישום, עבור אל 'הגדרות' > 'מנהל היישומים' > 'ברירת מחדל' ובחר ביישום המשמש כברירת מחדל. כעת בחר בפריט 'נקה הגדרות ברירת מחדל'."
+
+msgid "IDS_COM_BODY_NO_APPLICATIONS_CAN_PERFORM_THIS_ACTION"
+msgstr "אין יישומים המסוגלים לבצע פעולה זו."
+
+msgid "IDS_COM_BODY_ALWAYS"
+msgstr "תמיד"
+
+msgid "IDS_COM_BODY_JUST_ONCE"
+msgstr "פעם אחת בלבד"
+

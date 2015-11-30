@@ -1,0 +1,21 @@
+msgid "IDS_COM_SK_OK"
+msgstr "确定"
+
+msgid "IDS_ST_BODY_CLEAR_DEFAULTS"
+msgstr "清除默认值"
+
+msgid "IDS_COM_HEADER_SELECT_APPLICATION"
+msgstr "选择应用程序"
+
+msgid "IDS_ST_POP_TO_CLEAR_DEFAULT_APPLICATION_SETTINGS_GO_TO_SETTINGS_APPLICATION_MANAGER_DEFAULT_AND_SELECT_THE_APPLICATION_BEING_USED_BY_DEFAULT_MSG"
+msgstr "若要清除默认应用程序设定，请进入设定 > 应用程序管理器 > 默认并选择默认使用的应用程序。然后选择清除默认值。"
+
+msgid "IDS_COM_BODY_NO_APPLICATIONS_CAN_PERFORM_THIS_ACTION"
+msgstr "无法找到应用程序以执行该操作"
+
+msgid "IDS_COM_BODY_ALWAYS"
+msgstr "总是"
+
+msgid "IDS_COM_BODY_JUST_ONCE"
+msgstr "仅一次"
+

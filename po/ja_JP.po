@@ -1,0 +1,21 @@
+msgid "IDS_COM_SK_OK"
+msgstr "OK"
+
+msgid "IDS_ST_BODY_CLEAR_DEFAULTS"
+msgstr "初期設定に戻す"
+
+msgid "IDS_COM_HEADER_SELECT_APPLICATION"
+msgstr "アプリケーションを選択"
+
+msgid "IDS_ST_POP_TO_CLEAR_DEFAULT_APPLICATION_SETTINGS_GO_TO_SETTINGS_APPLICATION_MANAGER_DEFAULT_AND_SELECT_THE_APPLICATION_BEING_USED_BY_DEFAULT_MSG"
+msgstr "標準アプリ設定を解除するには、[設定] > [アプリケーション管理] > [標準]に移動します。標準で使用しているアプリケーションを選択し、[初期設定に戻す]を選択します。"
+
+msgid "IDS_COM_BODY_NO_APPLICATIONS_CAN_PERFORM_THIS_ACTION"
+msgstr "この操作を実行するアプリケーションが見つかりません。"
+
+msgid "IDS_COM_BODY_ALWAYS"
+msgstr "毎回"
+
+msgid "IDS_COM_BODY_JUST_ONCE"
+msgstr "今回のみ"
+

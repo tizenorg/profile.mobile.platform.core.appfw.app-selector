@@ -1,0 +1,21 @@
+msgid "IDS_COM_SK_OK"
+msgstr "OK"
+
+msgid "IDS_ST_BODY_CLEAR_DEFAULTS"
+msgstr "Vymazať predvolené"
+
+msgid "IDS_COM_HEADER_SELECT_APPLICATION"
+msgstr "Vyberte aplikáciu"
+
+msgid "IDS_ST_POP_TO_CLEAR_DEFAULT_APPLICATION_SETTINGS_GO_TO_SETTINGS_APPLICATION_MANAGER_DEFAULT_AND_SELECT_THE_APPLICATION_BEING_USED_BY_DEFAULT_MSG"
+msgstr "Ak chcete vymazať nastavenia predvolených aplikácií, prejdite do menu Nastavenia > Správca aplikácií > Predvolené a vyberte aplikáciu používanú v predvolenom nastavení. Potom vyberte položku Vymazať predvolené nastavenia."
+
+msgid "IDS_COM_BODY_NO_APPLICATIONS_CAN_PERFORM_THIS_ACTION"
+msgstr "Nedá sa nájsť aplikácia na vykonanie tejto akcie."
+
+msgid "IDS_COM_BODY_ALWAYS"
+msgstr "Vždy"
+
+msgid "IDS_COM_BODY_JUST_ONCE"
+msgstr "Iba raz"
+

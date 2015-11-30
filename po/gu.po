@@ -1,0 +1,21 @@
+msgid "IDS_COM_SK_OK"
+msgstr "ઓકે"
+
+msgid "IDS_ST_BODY_CLEAR_DEFAULTS"
+msgstr "મૂળભૂતને હટાવો"
+
+msgid "IDS_COM_HEADER_SELECT_APPLICATION"
+msgstr "એપ્લિકેશન પસંદ કરો"
+
+msgid "IDS_ST_POP_TO_CLEAR_DEFAULT_APPLICATION_SETTINGS_GO_TO_SETTINGS_APPLICATION_MANAGER_DEFAULT_AND_SELECT_THE_APPLICATION_BEING_USED_BY_DEFAULT_MSG"
+msgstr "મૂળભૂત એપ્લિકેશન સેટિંગ્સ સાફ કરવા માટે, સેટિંગ્સ > એપ્લિકેશન સંચાલક > મૂળભૂત પર જાઓ અને મૂળભૂત રૂપે ઉપયોગ કરવા માટેની એપ્લિકેશન પસંદ કરો. પછી મૂળભૂત સાફ કરો પસંદ કરો."
+
+msgid "IDS_COM_BODY_NO_APPLICATIONS_CAN_PERFORM_THIS_ACTION"
+msgstr "આ કાર્ય કરવા માટે એપ્લિકેશન શોધવા અસમર્થ."
+
+msgid "IDS_COM_BODY_ALWAYS"
+msgstr "હંમેશાં"
+
+msgid "IDS_COM_BODY_JUST_ONCE"
+msgstr "ફક્ત એક વાર"
+

@@ -1,0 +1,21 @@
+msgid "IDS_COM_SK_OK"
+msgstr "OK"
+
+msgid "IDS_ST_BODY_CLEAR_DEFAULTS"
+msgstr "Alapértelmezések törlése"
+
+msgid "IDS_COM_HEADER_SELECT_APPLICATION"
+msgstr "Alkalmazás kiválasztása"
+
+msgid "IDS_ST_POP_TO_CLEAR_DEFAULT_APPLICATION_SETTINGS_GO_TO_SETTINGS_APPLICATION_MANAGER_DEFAULT_AND_SELECT_THE_APPLICATION_BEING_USED_BY_DEFAULT_MSG"
+msgstr "Az alapértelmezett alkalmazások beállításának törléséhez válassza a Beállítások > Alkalmazáskezelő > Alapértelmezés pontot, majd válassza ki az alapértelmezettként használt alkalmazást. Ezután válassza az Alapértelmezések törlése lehetőséget."
+
+msgid "IDS_COM_BODY_NO_APPLICATIONS_CAN_PERFORM_THIS_ACTION"
+msgstr "Nem található alkalmazás a művelet végrehajtásához."
+
+msgid "IDS_COM_BODY_ALWAYS"
+msgstr "Mindig"
+
+msgid "IDS_COM_BODY_JUST_ONCE"
+msgstr "Csak egyszer"
+

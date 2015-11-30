@@ -1,0 +1,21 @@
+msgid "IDS_COM_SK_OK"
+msgstr "ଓକେ"
+
+msgid "IDS_ST_BODY_CLEAR_DEFAULTS"
+msgstr "ଡିଫଲ୍ଟ ଖାଲି କରନ୍ତୁ"
+
+msgid "IDS_COM_HEADER_SELECT_APPLICATION"
+msgstr "ଆପ୍ଲିକେସନ୍‌ ଚୟନ କରନ୍ତୁ"
+
+msgid "IDS_ST_POP_TO_CLEAR_DEFAULT_APPLICATION_SETTINGS_GO_TO_SETTINGS_APPLICATION_MANAGER_DEFAULT_AND_SELECT_THE_APPLICATION_BEING_USED_BY_DEFAULT_MSG"
+msgstr "ଡିଫଲ୍ଟ ଆପ୍ଲିକେସନ୍ ସେଟିଂସ୍ ଖାଲି କରିବାକୁ, ସେଟିଂସ୍ > ଆପ୍ଲିକେସନ୍‍ ପରିଚାଳକ > ଡିଫଲ୍ଟକୁ ଯାଆନ୍ତୁ, ଏବଂ ଡିଫଲ୍ଟ ଦ୍ୱାରା ବ୍ୟବହାର ହେଉଥିବା ଆପ୍ଲିକେସନ୍ ଚୟନ କରନ୍ତୁ। ତାପରେ ଖାଲି ଡିଫଲ୍ଟ ଚୟନ କରନ୍ତୁ।"
+
+msgid "IDS_COM_BODY_NO_APPLICATIONS_CAN_PERFORM_THIS_ACTION"
+msgstr "ଏହି କ୍ରିୟା ସଞ୍ଚାଳନ କରିବାକୁ ଆପ୍ଲିକେସନ୍ ସନ୍ଧାନ କରିବାକୁ ଅସମର୍ଥ।"
+
+msgid "IDS_COM_BODY_ALWAYS"
+msgstr "ସର୍ବଦା"
+
+msgid "IDS_COM_BODY_JUST_ONCE"
+msgstr "କେବଳ ଥରେ"
+

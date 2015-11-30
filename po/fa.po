@@ -1,0 +1,21 @@
+msgid "IDS_COM_SK_OK"
+msgstr "تاييد"
+
+msgid "IDS_ST_BODY_CLEAR_DEFAULTS"
+msgstr "پاک کردن پیش فرض"
+
+msgid "IDS_COM_HEADER_SELECT_APPLICATION"
+msgstr "انتخاب برنامه"
+
+msgid "IDS_ST_POP_TO_CLEAR_DEFAULT_APPLICATION_SETTINGS_GO_TO_SETTINGS_APPLICATION_MANAGER_DEFAULT_AND_SELECT_THE_APPLICATION_BEING_USED_BY_DEFAULT_MSG"
+msgstr "برای پاک کردن تنظیمات برنامه پیش‌فرض، به تنظیمات > مدیر برنامه > پیش‌فرض بروید و برنامه‌ای که به طور پیش‌فرض در حال استفاده است را انتخاب کنید. سپس پاک کردن پیش‌فرض‌ها را انتخاب کنید."
+
+msgid "IDS_COM_BODY_NO_APPLICATIONS_CAN_PERFORM_THIS_ACTION"
+msgstr "یافتن برنامه پیش‌فرض برای اجرای این عملکرد ممکن نیست."
+
+msgid "IDS_COM_BODY_ALWAYS"
+msgstr "هميشه"
+
+msgid "IDS_COM_BODY_JUST_ONCE"
+msgstr "فقط یک بار"
+

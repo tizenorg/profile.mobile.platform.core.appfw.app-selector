@@ -1,0 +1,21 @@
+msgid "IDS_COM_SK_OK"
+msgstr "OK"
+
+msgid "IDS_ST_BODY_CLEAR_DEFAULTS"
+msgstr "I-clear ang mga default"
+
+msgid "IDS_COM_HEADER_SELECT_APPLICATION"
+msgstr "Pumili ng application"
+
+msgid "IDS_ST_POP_TO_CLEAR_DEFAULT_APPLICATION_SETTINGS_GO_TO_SETTINGS_APPLICATION_MANAGER_DEFAULT_AND_SELECT_THE_APPLICATION_BEING_USED_BY_DEFAULT_MSG"
+msgstr "Para i-clear ang default na mga setting ng application, pumunta sa Mga setting > Application manager > Default at piliin ang application na ginagamit bilang default. Pagkatapos ay piliin ang I-clear ang mga default."
+
+msgid "IDS_COM_BODY_NO_APPLICATIONS_CAN_PERFORM_THIS_ACTION"
+msgstr "Hindi makahanap ng application na magsasagawa ng aksyon na ito."
+
+msgid "IDS_COM_BODY_ALWAYS"
+msgstr "Palagi"
+
+msgid "IDS_COM_BODY_JUST_ONCE"
+msgstr "Isang beses lang"
+
