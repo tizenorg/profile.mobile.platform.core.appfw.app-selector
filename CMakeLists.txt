@@ -1,0 +1,63 @@
+CMAKE_MINIMUM_REQUIRED(VERSION 2.6)
+PROJECT(app-selector C)
+
+SET(SRCS src/main.c src/popup.c src/util.c src/index.c src/grid.c src/layout.c src/page.c src/scroller.c)
+
+SET(PACKAGE ${PROJECT_NAME})
+SET(PKGNAME "org.tizen.${PACKAGE}")
+#SET(PKGNAME ${PACKAGE})
+SET(PREFIX ${CMAKE_INSTALL_PREFIX})
+SET(BINDIR "${PREFIX}/apps/${PKGNAME}/bin")
+SET(RESDIR "${PREFIX}/apps/${PKGNAME}/res")
+SET(LOCALEDIR "${resdir}/locale")
+SET(IMAGEDIR "${RESDIR}/images/")
+SET(EDJEDIR "${RESDIR}/edje/")
+SET(SHAREDIR "${PREFIX}/share")
+
+IF("${CMAKE_BUILD_TYPE}" STREQUAL "")
+	SET(CMAKE_BUILD_TYPE "Release")
+ENDIF("${CMAKE_BUILD_TYPE}" STREQUAL "")
+MESSAGE("Build type: ${CMAKE_BUILD_TYPE}")
+
+INCLUDE_DIRECTORIES(${CMAKE_SOURCE_DIR}/include)
+
+INCLUDE(FindPkgConfig)
+pkg_check_modules(pkgs REQUIRED appcore-efl rua aul elementary eina evas ecore ecore-file ecore-input edje appsvc efl-extension vconf pkgmgr-info capi-appfw-application)
+
+FOREACH(flag ${pkgs_CFLAGS})
+	SET(EXTRA_CFLAGS "${EXTRA_CFLAGS} ${flag}")
+ENDFOREACH(flag)
+
+SET(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} ${EXTRA_CFLAGS} -fPIC -fvisibility=hidden -Wall")
+SET(CMAKE_C_FLAGS_DEBUG "-O0 -g")
+SET(CMAKE_C_FLAGS_RELEASE "-O2")
+
+FIND_PROGRAM(UNAME NAMES uname)
+EXEC_PROGRAM("${UNAME}" ARGS "-m" OUTPUT_VARIABLE "ARCH")
+IF("${ARCH}" MATCHES "^arm.*")
+	ADD_DEFINITIONS("-DTARGET")
+	MESSAGE("add -DTARGET")
+ENDIF("${ARCH}" MATCHES "^arm.*")
+
+ADD_DEFINITIONS("-fpie")
+
+ADD_DEFINITIONS("-DVENDOR=\"${VENDOR}\"")
+ADD_DEFINITIONS("-DPACKAGE=\"${PACKAGE}\"")
+ADD_DEFINITIONS("-DPACKAGE_NAME=\"${PKGNAME}\"")
+ADD_DEFINITIONS("-DPREFIX=\"${PREFIX}\"")
+ADD_DEFINITIONS("-DEDJEDIR=\"${EDJEDIR}\"")
+ADD_DEFINITIONS("-DLOCALEDIR=\"${LOCALEDIR}\"")
+
+SET(CMAKE_EXE_LINKER_FLAGS "-Wl,--as-needed")
+
+ADD_EXECUTABLE(${PROJECT_NAME} ${SRCS})
+TARGET_LINK_LIBRARIES(${PROJECT_NAME} ${pkgs_LDFLAGS} "-pie")
+
+INSTALL(TARGETS ${PROJECT_NAME} DESTINATION ${BINDIR})
+
+# install manifest file & icon
+CONFIGURE_FILE(${PKGNAME}.xml.in ${CMAKE_BINARY_DIR}/${PKGNAME}.xml)
+INSTALL(FILES ${CMAKE_BINARY_DIR}/${PKGNAME}.xml DESTINATION ${SHAREDIR}/packages)
+
+ADD_SUBDIRECTORY(res)
+ADD_SUBDIRECTORY(po)

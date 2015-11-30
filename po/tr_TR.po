@@ -1,0 +1,21 @@
+msgid "IDS_COM_SK_OK"
+msgstr "Tamam"
+
+msgid "IDS_ST_BODY_CLEAR_DEFAULTS"
+msgstr "Varsayılanları sil"
+
+msgid "IDS_COM_HEADER_SELECT_APPLICATION"
+msgstr "Uygulama seç"
+
+msgid "IDS_ST_POP_TO_CLEAR_DEFAULT_APPLICATION_SETTINGS_GO_TO_SETTINGS_APPLICATION_MANAGER_DEFAULT_AND_SELECT_THE_APPLICATION_BEING_USED_BY_DEFAULT_MSG"
+msgstr "Varsayılan uygulama ayarlarını temizlemek için Ayarlar > Uygulama yöneticisi > Varsayılan bölümüne gidip varsayılan olarak kullanılan uygulamayı seçin. Ardından Varsayılanları temizle öğesini seçin."
+
+msgid "IDS_COM_BODY_NO_APPLICATIONS_CAN_PERFORM_THIS_ACTION"
+msgstr "Bu eylemi gerçekleştirecek uygulama bulunamadı."
+
+msgid "IDS_COM_BODY_ALWAYS"
+msgstr "Her zaman"
+
+msgid "IDS_COM_BODY_JUST_ONCE"
+msgstr "Sadece bir kere"
+

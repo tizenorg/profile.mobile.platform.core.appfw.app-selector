@@ -1,0 +1,21 @@
+msgid "IDS_COM_SK_OK"
+msgstr "ठीक"
+
+msgid "IDS_ST_BODY_CLEAR_DEFAULTS"
+msgstr "डिफॉल्ट्स साफ करा."
+
+msgid "IDS_COM_HEADER_SELECT_APPLICATION"
+msgstr "अनुप्रयोग निवडा"
+
+msgid "IDS_ST_POP_TO_CLEAR_DEFAULT_APPLICATION_SETTINGS_GO_TO_SETTINGS_APPLICATION_MANAGER_DEFAULT_AND_SELECT_THE_APPLICATION_BEING_USED_BY_DEFAULT_MSG"
+msgstr "डिफॉल्ट अनुप्रयोग सेटिंग्स साफ करण्यासाठी, सेटिंग्स > अनुप्रयोग व्यवस्थापक > डिफॉल्ट वर जा आणि डिफॉल्टपणे वापरले जात असलेले अनुप्रयोग निवडा. नंतर डिफॉल्ट्स साफ करा निवडा."
+
+msgid "IDS_COM_BODY_NO_APPLICATIONS_CAN_PERFORM_THIS_ACTION"
+msgstr "ही क्रिया करण्यासाठी ऍप्लिकेशन सापडवण्यास अक्षम."
+
+msgid "IDS_COM_BODY_ALWAYS"
+msgstr "नेहमी"
+
+msgid "IDS_COM_BODY_JUST_ONCE"
+msgstr "केवळ एकदा"
+

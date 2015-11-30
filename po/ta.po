@@ -1,0 +1,21 @@
+msgid "IDS_COM_SK_OK"
+msgstr "சரி"
+
+msgid "IDS_ST_BODY_CLEAR_DEFAULTS"
+msgstr "டீஃபால்ட்களை துடைக்கவும்"
+
+msgid "IDS_COM_HEADER_SELECT_APPLICATION"
+msgstr "பயன்பாடு தேர்வுசெய்க"
+
+msgid "IDS_ST_POP_TO_CLEAR_DEFAULT_APPLICATION_SETTINGS_GO_TO_SETTINGS_APPLICATION_MANAGER_DEFAULT_AND_SELECT_THE_APPLICATION_BEING_USED_BY_DEFAULT_MSG"
+msgstr "டீஃபால்ட் பயன்பாட்டு அமைவுகளை அழிக்க, அமைவுகள் > பயன்பாட்டு மேலாளர் > டீஃபால்ட், என்பதற்குச் சென்று டீஃபால்ட்டாக பயன்படுத்தப்படும் பயன்பாட்டைத் தேர்வு செய்யவும். பின்னர் டீஃபால்ட்டுகளை அழிக்கவும் என்பதைத் தேர்வுசெய்யவும்."
+
+msgid "IDS_COM_BODY_NO_APPLICATIONS_CAN_PERFORM_THIS_ACTION"
+msgstr "இந்த செயலை செய்ய பயன்பாட்டை தேட இயலாது."
+
+msgid "IDS_COM_BODY_ALWAYS"
+msgstr "எப்போதும்"
+
+msgid "IDS_COM_BODY_JUST_ONCE"
+msgstr "ஒருமுறை மட்டுமே"
+

@@ -1,0 +1,21 @@
+msgid "IDS_COM_SK_OK"
+msgstr "ٹھیک ہے"
+
+msgid "IDS_ST_BODY_CLEAR_DEFAULTS"
+msgstr "طے کردہ صاف کریں"
+
+msgid "IDS_COM_HEADER_SELECT_APPLICATION"
+msgstr "ایپلیکیشن منتخب کریں"
+
+msgid "IDS_ST_POP_TO_CLEAR_DEFAULT_APPLICATION_SETTINGS_GO_TO_SETTINGS_APPLICATION_MANAGER_DEFAULT_AND_SELECT_THE_APPLICATION_BEING_USED_BY_DEFAULT_MSG"
+msgstr "طئے شدہ ایپلیکیشن سیٹنگز کو صاف کرنے کے لیے، سیٹنگز > ایپلیکیشن مینیجر > طئے شدہ، پر جائیں اور ایپلیکیشن بذریعہ طئے شدہ استعمال کی جا رہی ہے کو منتخب کریں۔ پھر طئے شدہ کو صاف کریں کو منتخب کریں۔"
+
+msgid "IDS_COM_BODY_NO_APPLICATIONS_CAN_PERFORM_THIS_ACTION"
+msgstr "یہ عمل انجام دینے کے لئے ایپلیکیشن ڈھونڈنے سے قاصر۔"
+
+msgid "IDS_COM_BODY_ALWAYS"
+msgstr "ہمیشہ"
+
+msgid "IDS_COM_BODY_JUST_ONCE"
+msgstr "فقط ایک بار"
+

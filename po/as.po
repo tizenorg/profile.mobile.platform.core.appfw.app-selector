@@ -1,0 +1,21 @@
+msgid "IDS_COM_SK_OK"
+msgstr "ঠিক"
+
+msgid "IDS_ST_BODY_CLEAR_DEFAULTS"
+msgstr "ডিফ'ল্ট সমূহ আঁতৰাওক"
+
+msgid "IDS_COM_HEADER_SELECT_APPLICATION"
+msgstr "এপ্লিকেশ্বন চয়ন কৰক"
+
+msgid "IDS_ST_POP_TO_CLEAR_DEFAULT_APPLICATION_SETTINGS_GO_TO_SETTINGS_APPLICATION_MANAGER_DEFAULT_AND_SELECT_THE_APPLICATION_BEING_USED_BY_DEFAULT_MSG"
+msgstr "ডিফ'ল্ট এপ্লিকেশ্বন ছেটিংছ পৰিষ্কাৰ কৰিবলৈ, ছেটিংছ > এপ্লিকেশ্বন মেনেজাৰ > ডিফ'ল্টলৈ যাওক আৰু ডিফ'ল্টৰ দ্বাৰা ব্যৱহাৰ কৰি থকা এপ্লিকেশ্বন চয়ন কৰক৷ ইয়াৰ পিছত ডিফ'ল্টসমূহ পৰিষ্কাৰ কৰক চয়ন কৰক৷"
+
+msgid "IDS_COM_BODY_NO_APPLICATIONS_CAN_PERFORM_THIS_ACTION"
+msgstr "এই কাৰ্য্য প্ৰদৰ্শন কৰিবলৈ এপ্লিকেশ্বন বিচাৰিবলৈ অক্ষম৷"
+
+msgid "IDS_COM_BODY_ALWAYS"
+msgstr "সদায়"
+
+msgid "IDS_COM_BODY_JUST_ONCE"
+msgstr "মাত্র এবাৰ"
+

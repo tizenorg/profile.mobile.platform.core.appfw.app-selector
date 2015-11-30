@@ -1,0 +1,21 @@
+msgid "IDS_COM_SK_OK"
+msgstr "ਓਕੇ"
+
+msgid "IDS_ST_BODY_CLEAR_DEFAULTS"
+msgstr "ਡਿਫਾੱਲਟਸ ਸਾਫ਼ ਕਰੋ"
+
+msgid "IDS_COM_HEADER_SELECT_APPLICATION"
+msgstr "ਅਨੁਪ੍ਰਯੋਗ ਚੁਣੋ"
+
+msgid "IDS_ST_POP_TO_CLEAR_DEFAULT_APPLICATION_SETTINGS_GO_TO_SETTINGS_APPLICATION_MANAGER_DEFAULT_AND_SELECT_THE_APPLICATION_BEING_USED_BY_DEFAULT_MSG"
+msgstr "ਡਿਫਾੱਲਟ ਅਨੁਪ੍ਰਯੋਗ ਸੈੱਟਿੰਗਸ ਨੂੰ ਸਾਫ਼ ਕਰਨ ਲਈ, ਸੈੱਟਿੰਗਸ > ਅਨੁਪ੍ਰਯੋਗ ਪ੍ਰਬੰਧਕ > ਡਿਫਾੱਲਟ ਤੇ ਜਾਉ, ਅਤੇ ਡਿਫਾੱਲਟ ਦੁਆਰਾ ਉਪਯੋਗ ਕੀਤੇ ਜਾ ਰਹੇ ਅਨੁਪ੍ਰਯੋਗਾਂ ਨੂੰ ਚੁਣੋ। ਫਿਰ ਡਿਫਾੱਲਟਸ ਨੂੰ ਸਾਫ਼ ਕਰੋ ਨੂੰ ਚੁਣੋ।"
+
+msgid "IDS_COM_BODY_NO_APPLICATIONS_CAN_PERFORM_THIS_ACTION"
+msgstr "ਇਹ ਕਾਰਜ ਕਰਨ ਲਈ ਅਨੁਪ੍ਰਯੋਗ ਨੂੰ ਲੱਭਣ ਵਿੱਚ ਅਸਮਰੱਥ।"
+
+msgid "IDS_COM_BODY_ALWAYS"
+msgstr "ਹਮੇਸ਼ਾ"
+
+msgid "IDS_COM_BODY_JUST_ONCE"
+msgstr "ਸਿਰਫ ਇੱਕ ਵਾਰ"
+

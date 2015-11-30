@@ -1,0 +1,21 @@
+msgid "IDS_COM_SK_OK"
+msgstr "OK"
+
+msgid "IDS_ST_BODY_CLEAR_DEFAULTS"
+msgstr "Standaard-instellingen wissen"
+
+msgid "IDS_COM_HEADER_SELECT_APPLICATION"
+msgstr "Applicatie selecteren"
+
+msgid "IDS_ST_POP_TO_CLEAR_DEFAULT_APPLICATION_SETTINGS_GO_TO_SETTINGS_APPLICATION_MANAGER_DEFAULT_AND_SELECT_THE_APPLICATION_BEING_USED_BY_DEFAULT_MSG"
+msgstr "Als u de standaardinstellingen voor applicaties wilt wissen, gaat u naar Instellingen > Applicatiebeheer > Standaard en selecteert u de applicatie die standaard wordt gebruikt. Selecteer vervolgens Standaardinstellingen wissen."
+
+msgid "IDS_COM_BODY_NO_APPLICATIONS_CAN_PERFORM_THIS_ACTION"
+msgstr "Kan geen applicatie vinden om deze actie uit te voeren."
+
+msgid "IDS_COM_BODY_ALWAYS"
+msgstr "Altijd"
+
+msgid "IDS_COM_BODY_JUST_ONCE"
+msgstr "Slechts eenmaal"
+

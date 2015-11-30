@@ -1,0 +1,21 @@
+msgid "IDS_COM_SK_OK"
+msgstr "OK"
+
+msgid "IDS_ST_BODY_CLEAR_DEFAULTS"
+msgstr "Clear defaults"
+
+msgid "IDS_COM_HEADER_SELECT_APPLICATION"
+msgstr "Select application"
+
+msgid "IDS_ST_POP_TO_CLEAR_DEFAULT_APPLICATION_SETTINGS_GO_TO_SETTINGS_APPLICATION_MANAGER_DEFAULT_AND_SELECT_THE_APPLICATION_BEING_USED_BY_DEFAULT_MSG"
+msgstr "To clear default application settings, go to Settings > Application manager > Default, and select the application being used by default. Then select Clear defaults."
+
+msgid "IDS_COM_BODY_NO_APPLICATIONS_CAN_PERFORM_THIS_ACTION"
+msgstr "Unable to find application to perform this action."
+
+msgid "IDS_COM_BODY_ALWAYS"
+msgstr "Always"
+
+msgid "IDS_COM_BODY_JUST_ONCE"
+msgstr "Just once"
+
