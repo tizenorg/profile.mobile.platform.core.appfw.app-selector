@@ -1,0 +1,21 @@
+msgid "IDS_COM_SK_OK"
+msgstr "Ok"
+
+msgid "IDS_ST_BODY_CLEAR_DEFAULTS"
+msgstr "Fshij vlerat default"
+
+msgid "IDS_COM_HEADER_SELECT_APPLICATION"
+msgstr "Zgjidh program"
+
+msgid "IDS_ST_POP_TO_CLEAR_DEFAULT_APPLICATION_SETTINGS_GO_TO_SETTINGS_APPLICATION_MANAGER_DEFAULT_AND_SELECT_THE_APPLICATION_BEING_USED_BY_DEFAULT_MSG"
+msgstr "Për të hequr cilësimet e aplikacionit të parazgjedhur, shko te Cilësimet > Menaxheri i aplikacioneve > Parazgjedhjet dhe përzgjidh aplikacionin që po përdoret me parazgjedhje. Pastaj përzgjidh Pastro parazgjedhjet."
+
+msgid "IDS_COM_BODY_NO_APPLICATIONS_CAN_PERFORM_THIS_ACTION"
+msgstr "Nuk mund të gjejë aplikacionin që ta kryejë këtë veprim."
+
+msgid "IDS_COM_BODY_ALWAYS"
+msgstr "Gjithnjë"
+
+msgid "IDS_COM_BODY_JUST_ONCE"
+msgstr "Vetëm një herë"
+

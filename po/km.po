@@ -1,0 +1,21 @@
+msgid "IDS_COM_SK_OK"
+msgstr "ព្រម"
+
+msgid "IDS_ST_BODY_CLEAR_DEFAULTS"
+msgstr "ជម្រះ​លំនាំ​ដើម"
+
+msgid "IDS_COM_HEADER_SELECT_APPLICATION"
+msgstr "ជ្រើស​កម្មវិធី"
+
+msgid "IDS_ST_POP_TO_CLEAR_DEFAULT_APPLICATION_SETTINGS_GO_TO_SETTINGS_APPLICATION_MANAGER_DEFAULT_AND_SELECT_THE_APPLICATION_BEING_USED_BY_DEFAULT_MSG"
+msgstr "ដើម្បី​ជម្រះ​ការកំណត់​កម្មវិធី​លំនាំដើម សូម​ចូលទៅ ការកំណត់ > អភិបាល​កម្មវិធី > លំនាំដើម ហើយ​ជ្រើស​កម្មវិធី​ដែល​ត្រូវ​ប្រើ​តាម​លំនាំដើម។ រួច​ជ្រើស ជម្រះ​លំនាំដើម។"
+
+msgid "IDS_COM_BODY_NO_APPLICATIONS_CAN_PERFORM_THIS_ACTION"
+msgstr "មិន​អាច​រក​កម្មវិធី​ដើម្បី​ធ្វើ​អំពើ​នេះ។"
+
+msgid "IDS_COM_BODY_ALWAYS"
+msgstr "ជានិច្ច"
+
+msgid "IDS_COM_BODY_JUST_ONCE"
+msgstr "គ្រាន់តែម្ដង"
+

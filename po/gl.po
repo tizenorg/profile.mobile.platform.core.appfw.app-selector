@@ -1,0 +1,21 @@
+msgid "IDS_COM_SK_OK"
+msgstr "Aceptar"
+
+msgid "IDS_ST_BODY_CLEAR_DEFAULTS"
+msgstr "Borrar valores predeterminados"
+
+msgid "IDS_COM_HEADER_SELECT_APPLICATION"
+msgstr "Seleccionar aplicación"
+
+msgid "IDS_ST_POP_TO_CLEAR_DEFAULT_APPLICATION_SETTINGS_GO_TO_SETTINGS_APPLICATION_MANAGER_DEFAULT_AND_SELECT_THE_APPLICATION_BEING_USED_BY_DEFAULT_MSG"
+msgstr "Para borrar os axustes da aplicación predeterminada, vai a Axustes > Xestor de aplicacións > Predeterminado, e selecciona a aplicación que se está a utilizar por defecto. A continuación, selecciona Borrar predeterminados."
+
+msgid "IDS_COM_BODY_NO_APPLICATIONS_CAN_PERFORM_THIS_ACTION"
+msgstr "Non se pode atopar a aplicación para realizar esta acción"
+
+msgid "IDS_COM_BODY_ALWAYS"
+msgstr "Sempre"
+
+msgid "IDS_COM_BODY_JUST_ONCE"
+msgstr "Só unha vez"
+

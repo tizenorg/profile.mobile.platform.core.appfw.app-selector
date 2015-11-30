@@ -1,0 +1,21 @@
+msgid "IDS_COM_SK_OK"
+msgstr "ตกลง"
+
+msgid "IDS_ST_BODY_CLEAR_DEFAULTS"
+msgstr "ลบ​​ค่า​พื้น​ฐาน"
+
+msgid "IDS_COM_HEADER_SELECT_APPLICATION"
+msgstr "เลือก​แอ็พ​พลิ​เค​ชัน"
+
+msgid "IDS_ST_POP_TO_CLEAR_DEFAULT_APPLICATION_SETTINGS_GO_TO_SETTINGS_APPLICATION_MANAGER_DEFAULT_AND_SELECT_THE_APPLICATION_BEING_USED_BY_DEFAULT_MSG"
+msgstr "ไปที่ การตั้งค่า > ตัวจัดการแอพพลิเคชั่น > พื้นฐาน และเลือกแอพพลิเคชั่นที่ใช้โดยพื้นฐาน แล้วเลือกล้างค่าพื้นฐาน เพื่อล้างการตั้งค่าแอพพลิเคชั่นพื้นฐาน"
+
+msgid "IDS_COM_BODY_NO_APPLICATIONS_CAN_PERFORM_THIS_ACTION"
+msgstr "ไม่​สามารถ​ค้น​หา​แอ​พพลิ​เค​ชั่น​ที่​สามารถ​ทำ​งาน​นี้​ได้"
+
+msgid "IDS_COM_BODY_ALWAYS"
+msgstr "ตลอดเวลา"
+
+msgid "IDS_COM_BODY_JUST_ONCE"
+msgstr "เพียงครั้งเดียว"
+

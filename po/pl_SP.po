@@ -1,0 +1,21 @@
+msgid "IDS_COM_SK_OK"
+msgstr "OK"
+
+msgid "IDS_ST_BODY_CLEAR_DEFAULTS"
+msgstr "Wypucuj nasztalowania domyślne"
+
+msgid "IDS_COM_HEADER_SELECT_APPLICATION"
+msgstr "Ôbier aplikacyjŏ"
+
+msgid "IDS_ST_POP_TO_CLEAR_DEFAULT_APPLICATION_SETTINGS_GO_TO_SETTINGS_APPLICATION_MANAGER_DEFAULT_AND_SELECT_THE_APPLICATION_BEING_USED_BY_DEFAULT_MSG"
+msgstr "Aby wyczyścić ustawienia domyślne aplikacji, przejdź do menu Ustawienia > Menedżer aplikacji > Domyślne i wybierz aplikację używaną domyślnie. Następnie wybierz opcję Wyczyść ustawienia domyślne."
+
+msgid "IDS_COM_BODY_NO_APPLICATIONS_CAN_PERFORM_THIS_ACTION"
+msgstr "Niy idzie znŏjś aplikacyje do złōnaczyniŏ tyj akcji."
+
+msgid "IDS_COM_BODY_ALWAYS"
+msgstr "Ja, zowdy"
+
+msgid "IDS_COM_BODY_JUST_ONCE"
+msgstr "Ino rŏz"
+

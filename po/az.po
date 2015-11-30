@@ -1,0 +1,21 @@
+msgid "IDS_COM_SK_OK"
+msgstr "OK"
+
+msgid "IDS_ST_BODY_CLEAR_DEFAULTS"
+msgstr "Standarları silin"
+
+msgid "IDS_COM_HEADER_SELECT_APPLICATION"
+msgstr "Proqramı seç"
+
+msgid "IDS_ST_POP_TO_CLEAR_DEFAULT_APPLICATION_SETTINGS_GO_TO_SETTINGS_APPLICATION_MANAGER_DEFAULT_AND_SELECT_THE_APPLICATION_BEING_USED_BY_DEFAULT_MSG"
+msgstr "Defolt proqram parametrlərini silmək üçün Parametrlər > Proqram meneceri > Defolt keçərək defolt qaydada istifadə edilməli proqramı seçin. Sonra defoltları sil seçin."
+
+msgid "IDS_COM_BODY_NO_APPLICATIONS_CAN_PERFORM_THIS_ACTION"
+msgstr "Bu əməliyyatı icra etmək üçün proqramı tapmaq mümkün deyil."
+
+msgid "IDS_COM_BODY_ALWAYS"
+msgstr "Həmişə"
+
+msgid "IDS_COM_BODY_JUST_ONCE"
+msgstr "Sadəcə bir dəfə"
+

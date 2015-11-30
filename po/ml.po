@@ -1,0 +1,21 @@
+msgid "IDS_COM_SK_OK"
+msgstr "ശരി"
+
+msgid "IDS_ST_BODY_CLEAR_DEFAULTS"
+msgstr "സ്ഥിരസ്ഥിതികള്‍ മായ്ക്കുക"
+
+msgid "IDS_COM_HEADER_SELECT_APPLICATION"
+msgstr "ആപ്ലിക്കേഷന്‍ തിരഞ്ഞെടുക്കുക"
+
+msgid "IDS_ST_POP_TO_CLEAR_DEFAULT_APPLICATION_SETTINGS_GO_TO_SETTINGS_APPLICATION_MANAGER_DEFAULT_AND_SELECT_THE_APPLICATION_BEING_USED_BY_DEFAULT_MSG"
+msgstr "ഡിഫോൾട്ട് ആപ്ലിക്കേഷൻ ക്രമീകരണങ്ങൾ മായ്ക്കുന്നതിന്, ക്രമീകരണങ്ങൾ > ആപ്ലിക്കേഷൻ മാനേജർ > ഡിഫോൾട്ട് എന്നിവയിലേക്ക് പോയി ഡിഫോൾട്ടായി ഉപയോഗിച്ചുകൊണ്ടിരിക്കുന്ന ആപ്ലിക്കേഷനെ തിരഞ്ഞെടുക്കുക. തുടർന്ന് ഡിഫോൾട്ടുകൾ മായ്ക്കുക എന്നത് തിരഞ്ഞെടുക്കുക."
+
+msgid "IDS_COM_BODY_NO_APPLICATIONS_CAN_PERFORM_THIS_ACTION"
+msgstr "ഈ പ്രവൃത്തി നിര്‍വഹിക്കുന്നതിന് ആപ്ലിക്കേഷന്‍ കണ്ടെത്താനാവുന്നില്ല."
+
+msgid "IDS_COM_BODY_ALWAYS"
+msgstr "എപ്പോഴും"
+
+msgid "IDS_COM_BODY_JUST_ONCE"
+msgstr "ഒരിക്കല്‍"
+

@@ -1,0 +1,21 @@
+msgid "IDS_COM_SK_OK"
+msgstr "OK"
+
+msgid "IDS_ST_BODY_CLEAR_DEFAULTS"
+msgstr "Сброс настроек по умолчанию"
+
+msgid "IDS_COM_HEADER_SELECT_APPLICATION"
+msgstr "Выбор приложения"
+
+msgid "IDS_ST_POP_TO_CLEAR_DEFAULT_APPLICATION_SETTINGS_GO_TO_SETTINGS_APPLICATION_MANAGER_DEFAULT_AND_SELECT_THE_APPLICATION_BEING_USED_BY_DEFAULT_MSG"
+msgstr "Чтобы очистить стандартные параметры приложения, откройте меню “Параметры” > “Диспетчер приложений” > “По умолчанию” и выберите приложение, которое используется по умолчанию. Затем нажмите “Сбросить настройки по умолчанию”."
+
+msgid "IDS_COM_BODY_NO_APPLICATIONS_CAN_PERFORM_THIS_ACTION"
+msgstr "Не удается найти приложение для выполнения этого действия."
+
+msgid "IDS_COM_BODY_ALWAYS"
+msgstr "Всегда"
+
+msgid "IDS_COM_BODY_JUST_ONCE"
+msgstr "Только один раз"
+

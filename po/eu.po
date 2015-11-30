@@ -1,0 +1,21 @@
+msgid "IDS_COM_SK_OK"
+msgstr "Ados"
+
+msgid "IDS_ST_BODY_CLEAR_DEFAULTS"
+msgstr "Garbitu lehenetsiak"
+
+msgid "IDS_COM_HEADER_SELECT_APPLICATION"
+msgstr "Hautatu aplikazioa"
+
+msgid "IDS_ST_POP_TO_CLEAR_DEFAULT_APPLICATION_SETTINGS_GO_TO_SETTINGS_APPLICATION_MANAGER_DEFAULT_AND_SELECT_THE_APPLICATION_BEING_USED_BY_DEFAULT_MSG"
+msgstr "Lehenetsitako aplikazio ezarpenak garbitzeko, joan Ezarpenak > Aplikazio kudeatzailea > Lehenetsia eta hautatu erabilitako aplikazio lehenetsia. Ondoren, hautatu Garbitu lehenespenak."
+
+msgid "IDS_COM_BODY_NO_APPLICATIONS_CAN_PERFORM_THIS_ACTION"
+msgstr "Ezin da aplikazioa aurkitu ekintza gauzatzeko"
+
+msgid "IDS_COM_BODY_ALWAYS"
+msgstr "Beti"
+
+msgid "IDS_COM_BODY_JUST_ONCE"
+msgstr "Behin"
+

@@ -1,0 +1,21 @@
+msgid "IDS_COM_SK_OK"
+msgstr "Acceptar"
+
+msgid "IDS_ST_BODY_CLEAR_DEFAULTS"
+msgstr "Esborrar valors predeterminats"
+
+msgid "IDS_COM_HEADER_SELECT_APPLICATION"
+msgstr "Seleccionar aplicació"
+
+msgid "IDS_ST_POP_TO_CLEAR_DEFAULT_APPLICATION_SETTINGS_GO_TO_SETTINGS_APPLICATION_MANAGER_DEFAULT_AND_SELECT_THE_APPLICATION_BEING_USED_BY_DEFAULT_MSG"
+msgstr "Per esborrar els ajustaments d'aplicacions predeterminades, vagi a Ajustaments > Gestor d'aplicacions > Predeterminada i seleccioni l'aplicació que s'utilitzi de manera predeterminada. Després, seleccioni Esborrar predeterminades."
+
+msgid "IDS_COM_BODY_NO_APPLICATIONS_CAN_PERFORM_THIS_ACTION"
+msgstr "No es troba cap aplicació per realitzar aquesta acció"
+
+msgid "IDS_COM_BODY_ALWAYS"
+msgstr "Sempre"
+
+msgid "IDS_COM_BODY_JUST_ONCE"
+msgstr "Només un cop"
+

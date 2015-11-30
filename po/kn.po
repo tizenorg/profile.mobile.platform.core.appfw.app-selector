@@ -1,0 +1,21 @@
+msgid "IDS_COM_SK_OK"
+msgstr "ಸರಿ"
+
+msgid "IDS_ST_BODY_CLEAR_DEFAULTS"
+msgstr "ಡೀಫಾಲ್ಟ್‌ಗಳನ್ನು ಖಾಲಿ ಮಾಡಿ"
+
+msgid "IDS_COM_HEADER_SELECT_APPLICATION"
+msgstr "ಅನ್ವಯಿಸುವಿಕೆಯನ್ನು ಆರಿಸಿ"
+
+msgid "IDS_ST_POP_TO_CLEAR_DEFAULT_APPLICATION_SETTINGS_GO_TO_SETTINGS_APPLICATION_MANAGER_DEFAULT_AND_SELECT_THE_APPLICATION_BEING_USED_BY_DEFAULT_MSG"
+msgstr "ಡೀಫಾಲ್ಟ್ ಅನ್ವಯಿಸುವಿಕೆ ಸಂಯೋಜನೆಗಳನ್ನು ತೆರವುಗೊಳಿಸಲು, ಸಂಯೋಜನೆಗಳು > ಅನ್ವಯಿಸುವಿಕೆ ಮ್ಯಾನೇಜರ್‌ > ಡೀಫಾಲ್ಟ್‌ಗೆ ಹೋಗಿ ಮತ್ತು ಡೀಫಾಲ್ಟ್‌ನಂತೆ ಬಳಸಲ್ಪಡುತ್ತಿರುವ ಅನ್ವಯಿಸುವಿಕೆಯನ್ನು ಆಯ್ಕೆಮಾಡಿ. ನಂತರ ಡೀಫಾಲ್ಟ್‌ಗಳನ್ನು ತೆರವುಗೊಳಿಸು ಆಯ್ಕೆಮಾಡಿ."
+
+msgid "IDS_COM_BODY_NO_APPLICATIONS_CAN_PERFORM_THIS_ACTION"
+msgstr "ಈ ಕ್ರಿಯೆ ಕೈಗೊಳ್ಳುವಿಕೆಗೆ ಅನ್ವಯಿಸುವಿಕೆ ಹುಡುಕಲು ಅಶಕ್ತ."
+
+msgid "IDS_COM_BODY_ALWAYS"
+msgstr "ಯಾವಾಗಲು"
+
+msgid "IDS_COM_BODY_JUST_ONCE"
+msgstr "ಕೇವಲ ಒಮ್ಮೆ"
+

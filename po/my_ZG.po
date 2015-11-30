@@ -1,0 +1,21 @@
+msgid "IDS_COM_SK_OK"
+msgstr "အုိေက"
+
+msgid "IDS_ST_BODY_CLEAR_DEFAULTS"
+msgstr "ႀကိဳတင္စီစဥ္ထားသည္မ်ားကုိ ရွင္းပစ္ပါ"
+
+msgid "IDS_COM_HEADER_SELECT_APPLICATION"
+msgstr "လုပ္ငန္းသံုးပရိုဂရမ္ေရြးခ်ယ္ပါ"
+
+msgid "IDS_ST_POP_TO_CLEAR_DEFAULT_APPLICATION_SETTINGS_GO_TO_SETTINGS_APPLICATION_MANAGER_DEFAULT_AND_SELECT_THE_APPLICATION_BEING_USED_BY_DEFAULT_MSG"
+msgstr "အသင့္သုံး အပလီေကးရွင္း သတ္မွတ္ခ်က္မ်ားကို ရွင္းပစ္ရန္၊ သတ္မွတ္ခ်က္မ်ား > အပလီေကးရွင္း မန္ေနဂ်ာ > အသင့္သုံးပုံစံသို႔ သြားၿပီး၊ အသင့္သုံးပုံစံျဖင့္ သုံးေနဆဲ အပလီေကးရွင္းကို ေရြးပါ။ ၿပီးေနာက္ အသင့္သုံးပုံစံမ်ား ရွင္းပစ္ပါကို ေရြးပါ။"
+
+msgid "IDS_COM_BODY_NO_APPLICATIONS_CAN_PERFORM_THIS_ACTION"
+msgstr "ဤလုပ္ငန္းကို ေဆာင္ရြက္ရန္ လုပ္ငန္းသံုး ပရိုဂရမ္ရွာမေတြ႔ပါ။"
+
+msgid "IDS_COM_BODY_ALWAYS"
+msgstr "အၿမဲတမ္း"
+
+msgid "IDS_COM_BODY_JUST_ONCE"
+msgstr "တခုတည္းသာ"
+

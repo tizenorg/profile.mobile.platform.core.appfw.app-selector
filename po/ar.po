@@ -1,0 +1,21 @@
+msgid "IDS_COM_SK_OK"
+msgstr "موافق"
+
+msgid "IDS_ST_BODY_CLEAR_DEFAULTS"
+msgstr "مسح الافتراضيات"
+
+msgid "IDS_COM_HEADER_SELECT_APPLICATION"
+msgstr "اختر تطبيق"
+
+msgid "IDS_ST_POP_TO_CLEAR_DEFAULT_APPLICATION_SETTINGS_GO_TO_SETTINGS_APPLICATION_MANAGER_DEFAULT_AND_SELECT_THE_APPLICATION_BEING_USED_BY_DEFAULT_MSG"
+msgstr "لمسح ضبط التطبيق الافتراضي، انتقل إلى الضبط > مدير التطبيقات > افتراضي، وحدد التطبيق المستخدم بشكل افتراضي. ثم حدد مسح الضبط الافتراضي."
+
+msgid "IDS_COM_BODY_NO_APPLICATIONS_CAN_PERFORM_THIS_ACTION"
+msgstr "يتعذر العثور على التطبيق للقيام بهذا الإجراء."
+
+msgid "IDS_COM_BODY_ALWAYS"
+msgstr "دائما"
+
+msgid "IDS_COM_BODY_JUST_ONCE"
+msgstr "مرة واحدة فقط"
+
