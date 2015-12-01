@@ -30,7 +30,7 @@ struct ucred;
 #include "popup.h"
 #include "layout.h"
 extern int aul_forward_app(const char* pkgname, bundle *kb);
-extern int app_send_cmd_with_noreply(int pid, int cmd, bundle *kb);
+extern int aul_send_result(bundle *kb, int is_cancel);
 
 #define MAX_MIME_STR_SIZE 256
 
@@ -109,7 +109,6 @@ void _util_cancel(void *data)
 	bundle *kb;
 	int ret_val;
 	const char *pid = NULL;
-	char callee_pid[20]={0,};
 
 	pid = bundle_get_val(ad->kb, AUL_K_CALLER_PID);
 	if(pid == NULL) {
@@ -127,12 +126,10 @@ void _util_cancel(void *data)
 	bundle_add(kb, AUL_K_SEND_RESULT, "1");
 	bundle_add(kb, AUL_K_CALLER_PID, pid);
 
-	snprintf(callee_pid, 20, "%d", getpid());
-	bundle_add(kb, AUL_K_CALLEE_PID, (const char*)callee_pid);
+	ret_val = aul_send_result(kb, 1);
 
-	ret_val = app_send_cmd_with_noreply(-2, 7, kb); // 7 is APP_CANCEL
-	if(ret_val != AUL_R_OK) {
-		_E("app_send_cmd error(%d)", ret_val);
+	if (ret_val != AUL_R_OK) {
+		_E("aul_send_result error(%d)", ret_val);
 	}
 
 	bundle_free(kb);
