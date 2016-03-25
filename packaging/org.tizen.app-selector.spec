@@ -3,7 +3,7 @@ Summary:    Application selector
 Version:    0.1.61
 Release:    1
 Group:      Application Framework/Notifications
-License:    Flora
+License:    Flora-1.1
 Source0:    %{name}-%{version}.tar.gz
 
 %if "%{?profile}" == "wearable"
