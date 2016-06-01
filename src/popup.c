@@ -113,8 +113,10 @@ static void __always_btn_response_cb(void *data, Evas_Object * obj, void *event_
 
 	elm_object_domain_translatable_part_text_set(
 			eo, "title,text", PACKAGE, "IDS_ST_BODY_CLEAR_DEFAULTS");
+
 	elm_object_domain_translatable_text_set(
-			ok_btn, SYSSTRING, "IDS_COM_SK_OK");
+                        ok_btn, PACKAGE, "IDS_COM_SK_OK");	/* SYSSTRING is used in tizen 2.4 */
+
 
 	__clear_default_popup_text_set(NULL,eo,NULL);
 	evas_object_smart_callback_add(eo, "language,changed", __clear_default_popup_text_set, NULL);
