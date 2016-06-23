@@ -22,6 +22,7 @@
 #include <aul.h>
 #include <aul_svc.h>
 #include <app_control.h>
+#include <app_control_internal.h>
 #include <aul_svc.h>
 #include <appsvc.h>
 struct ucred;
@@ -33,34 +34,88 @@ struct ucred;
 
 #define MAX_MIME_STR_SIZE 256
 
+static int __set_default_app(const char *appid, const char *operation,
+		const char *mime, const char *uri)
+{
+	int ret;
+	app_control_h app_control;
+
+	if (appid == NULL || operation == NULL) {
+		_E("Invalid parameter");
+		return -1;
+	}
+
+	ret = app_control_create(&app_control);
+	if (ret != APP_CONTROL_ERROR_NONE) {
+		_E("Failed to create app_control handle");
+		return ret;
+	}
+
+	ret = app_control_set_operation(app_control, operation);
+	if (ret != APP_CONTROL_ERROR_NONE) {
+		_E("Failed to set operation: %s", operation);
+		goto end;
+	}
+
+	if (uri) {
+		ret = app_control_set_uri(app_control, uri);
+		if (ret != APP_CONTROL_ERROR_NONE) {
+			_E("Failed to set uri: %s", uri);
+			goto end;
+		}
+	}
+
+	if (mime) {
+		ret = app_control_set_mime(app_control, mime);
+		if (ret != APP_CONTROL_ERROR_NONE) {
+			_E("Failed to set mime: %s", mime);
+			goto end;
+		}
+	}
+
+	ret = app_control_set_defapp(app_control, appid);
+	if (ret != APP_CONTROL_ERROR_NONE)
+		_E("Failed to set default app: %s", appid);
+
+end:
+	app_control_destroy(app_control);
+
+	return ret;
+}
+
 void _util_set_as_default(void *data)
 {
 	int ret;
-	const char *val = NULL;
+	const char *val;
+	GRegex *regex = NULL;
+	GMatchInfo *match_info = NULL;
+	GError *error = NULL;
+	char *scheme = NULL;
+	item_s *info;
 
 	if (!data)
 		return;
 
-	item_s *info = (item_s *)data;
+	info = (item_s *)data;
 
 	_D("set as default");
 
-	if(info->ad->control_op) {
-		if(info->ad->control_uri) {
-			if(strncmp(info->ad->control_uri,"/",1) == 0){
-				if(!info->ad->control_mime) {
+	if (info->ad->control_op) {
+		if (info->ad->control_uri) {
+			if (strncmp(info->ad->control_uri, "/", 1) == 0){
+				if (!info->ad->control_mime) {
 					info->ad->control_mime = malloc(MAX_MIME_STR_SIZE);
 					aul_get_mime_from_file(info->ad->control_uri, info->ad->control_mime, MAX_MIME_STR_SIZE);
 				}
 				info->ad->control_uri = NULL;
-			} else if(strncmp(info->ad->control_uri,"file:///",8) == 0){
-				if(!info->ad->control_mime) {
+			} else if (strncmp(info->ad->control_uri, "file:///", 8) == 0){
+				if (!info->ad->control_mime) {
 					info->ad->control_mime = malloc(MAX_MIME_STR_SIZE);
 					aul_get_mime_from_file(&info->ad->control_uri[7], info->ad->control_mime, MAX_MIME_STR_SIZE);
 				}
 				info->ad->control_uri = NULL;
-			} else if(strncmp(info->ad->control_uri,"file:/",6)==0){
-				if(!info->ad->control_mime) {
+			} else if (strncmp(info->ad->control_uri, "file:/", 6)==0){
+				if (!info->ad->control_mime) {
 					info->ad->control_mime = malloc(MAX_MIME_STR_SIZE);
 					aul_get_mime_from_file(&info->ad->control_uri[5], info->ad->control_mime, MAX_MIME_STR_SIZE);
 				}
@@ -69,36 +124,38 @@ void _util_set_as_default(void *data)
 		}
 
 		val = bundle_get_val(info->ad->kb, AUL_SVC_K_URI_R_INFO);
-		if(val == NULL) {
-			GRegex *regex;
-			GMatchInfo *match_info;
-			GError *error = NULL;
-			char *scheme = NULL;
-			regex = g_regex_new ("^(([^:/?#]+):)?", 0, 0, &error);
-			if(g_regex_match (regex, info->ad->control_uri, 0, &match_info) == FALSE) {
-				_D("reg match fail for set_as_default");
+		if (val == NULL) {
+			if (info->ad->control_uri) {
+				regex = g_regex_new("^(([^:/?#]+):)?", 0, 0, &error);
+				if (regex == NULL)
+					_E("Failed to create GRegex");
+
+				if (g_regex_match(regex, info->ad->control_uri, 0, &match_info) == FALSE) {
+					_D("reg match fail for set_as_default");
+					g_regex_unref(regex);
+					return;
+				}
+
+				scheme = g_match_info_fetch(match_info, 2);
+			}
+
+			ret = __set_default_app(info->appid, info->ad->control_op, info->ad->control_mime, scheme);
+
+			if (scheme)
+				g_free(scheme);
+			if (match_info)
+				g_match_info_free(match_info);
+			if (regex)
 				g_regex_unref(regex);
-				return;
-			}
-
-			scheme = g_match_info_fetch(match_info, 2);
-			ret = appsvc_set_defapp(info->ad->control_op,info->ad->control_mime,scheme,info->appid, getuid());
-			if(ret != APPSVC_RET_OK) {
-				_D("appsvc set defapp error(%d)", ret);
-			}
-
-			g_free(scheme);
-			g_match_info_free(match_info);
-			g_regex_unref(regex);
 		} else {
-			ret = appsvc_set_defapp(info->ad->control_op,info->ad->control_mime,val,info->appid, getuid());
+			ret = __set_default_app(info->appid, info->ad->control_op, info->ad->control_mime, val);
 			bundle_del(info->ad->kb, AUL_SVC_K_URI_R_INFO);
 		}
 
-		if(ret != APPSVC_RET_OK) {
-			_E("appsvc_set_defapp error(%d)", ret);
-		}
+		if (ret != 0)
+			_E("Failed to set default app: %d", ret);
 	}
+
 	_D("done");
 }
 
