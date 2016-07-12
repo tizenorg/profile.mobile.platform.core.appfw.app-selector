@@ -236,8 +236,9 @@ void _util_recycle_app(void *data)
 	ad->selected_index = -1;
 
 	int exit;
-	aul_app_group_lower(&exit);
 	elm_win_lower(ad->win);
+	aul_app_group_lower(&exit);
+	evas_render(evas_object_evas_get(ad->win));
 }
 
 static Eina_Bool __lower_timeout(void *data)
